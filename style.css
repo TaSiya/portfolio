@@ -15,7 +15,11 @@ p{
 }
 
 #section-B{
-   background-color: #333a;
+   background-color: #eee;
+}
+
+hr{
+   width:90%;
 }
 
 #section-C{
@@ -148,6 +152,10 @@ a:hover{
       display:grid;
       grid-template-row: 100%;
       grid-gap: 1.5em;
+   }
+
+   hr{
+      width:85%;
    }
 
    #name, #para{
