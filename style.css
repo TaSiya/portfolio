@@ -22,6 +22,10 @@ hr{
    width:90%;
 }
 
+#arti{
+   font-family: 'Josefin Sans', sans-serif;
+}
+
 #section-C{
    background-color: #eee;
 }
@@ -146,12 +150,17 @@ a:hover{
       margin: 1em 2em;
    }
 
+   #section-A img{
+      width:12%;
+      margin: auto;
+   }
+
    .grid{
       width: 85%;
       margin:auto;
       display:grid;
       grid-template-row: 100%;
-      grid-gap: 1.5em;
+      grid-gap: 1em;
    }
 
    hr{
@@ -179,7 +188,10 @@ a:hover{
    }
 
    #follow img{
-      width:50%;
+      position:relative;
+      left: 7em;
+      margin: 0;
+      width:40%;
    }
 
 
