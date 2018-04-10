@@ -5,8 +5,7 @@ body{
    line-height: 1.5;
    font-family:Arial, Helvetica, sans-serif;
    text-align: center;
-
-   font-size: 13px;
+   font-size: 15px;
 }
 
 p{
@@ -15,7 +14,9 @@ p{
 }
 
 #section-B{
-   background-color: #eee;
+   background-image: url(img/front.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 hr{
@@ -27,7 +28,12 @@ hr{
 }
 
 #section-C{
-   background-color: #eee;
+   background-image:url(img/back.jpeg);
+   background-repeat: no-repeat;
+   background-size:cover;
+
+   color: #fff;
+
 }
 
 .clear{
@@ -122,8 +128,9 @@ button{
 }
 
 button:hover {
-   background-color: #333;
-   color: #eee;
+   background-color: #ddda;
+   color: #000;
+   text-transform:uppercase;
 }
 
 footer{
@@ -131,11 +138,13 @@ footer{
    line-height: 1em;
    background-color: #333;
    color:#000;
+   margin: 2em 0;
 }
 
 footer a{
    text-decoration:none;
    color: inherit;
+
 }
 
 a:hover{
@@ -228,6 +237,7 @@ a:hover{
    }
 
    .ends{
+
       display:grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1em;
